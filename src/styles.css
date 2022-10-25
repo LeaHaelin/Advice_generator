@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.App{
+    background-color: #202733;
+    height: 100vh;
+    padding-top: 120px;
+}
+
+.container{
+    margin: 0 auto;
+    text-align: center;
+    width:343px;
+    height: 315px;
+    padding: 40px 24px 64px;
+    background-color: #313A48;
+    box-shadow: 30px 50px 80px rgba(0, 0, 0, 0.100202);
+    border-radius: 10px;
+    font-family: 'Manrope', sans-serif;
+    position: relative;
+}
+
+.advice__num{
+    font-size: 11px;
+    letter-spacing: 3.46px;
+    color: #53FFAA;
+}
+
+.advice__text{
+    margin: 24px 0px;
+    font-size: 24px;
+    line-height: 32.78px;
+    color: #CEE3E9;
+}
+
+.divider{
+    position: absolute;
+    bottom: 64px;
+    left: 24px;
+}
+
+.button{
+    margin: 0 auto;
+    margin-top: 32px;
+    width: 64px;
+    height: 64px;
+    border-radius: 50px;
+    background-color: #53FFAA;
+    position: absolute;
+    bottom: -32px;
+    left: 138px;
+}
+
+.button__dice{
+    padding: 20px;
+}
+
+.button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 40px #53FFAA;
+}
+
+@media(min-width:1400px){
+    .App{
+        padding-top: 223px;
+    }
+    .container{
+        margin: 0 auto;
+        text-align: center;
+        width: 540px;
+        height: 332px;
+        padding: 48px 48px 72px;
+        border-radius: 15px;
+    }
+    .advice__num{
+        font-size: 13px;
+        letter-spacing: 4.09px;
+    }
+    .advice__text{
+        font-size: 28px;
+        line-height: 38.25px;
+        color: #CEE3E9;
+    }
+    .divider{
+        position: absolute;
+        bottom: 68px;
+        left: 48px;
+    }
+    .button{
+        position: absolute;
+        left: 238px;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
